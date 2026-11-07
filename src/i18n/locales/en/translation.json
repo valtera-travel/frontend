@@ -1,0 +1,363 @@
+{
+  "brand": "ValteraTravel",
+  "nav": {
+    "home": "Home",
+    "packages": "Travel Packages",
+    "destinations": "Destinations",
+    "contact": "Contact"
+  },
+  "language": "Language",
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong. Please try again.",
+    "retry": "Try again",
+    "viewDetail": "View details",
+    "viewAll": "View all",
+    "back": "Back",
+    "reset": "Reset filters",
+    "perPerson": "From / person",
+    "pricePerPerson": "Price per person",
+    "any": "All",
+    "flexible": "Flexible",
+    "prev": "Previous",
+    "next": "Next",
+    "page": "Page {{page}} of {{total}}"
+  },
+  "duration": "{{count}} days",
+  "travelers_one": "{{count}} person",
+  "travelers_other": "{{count}} people",
+  "hero": {
+    "badge": "Travel package information & trip consultation",
+    "title": "Hassle-free holidays, limitless memories.",
+    "subtitle": "Explore destinations and travel packages, then send an inquiry. Our team will get back to you with a suitable offer.",
+    "points": [
+      "Clear package information",
+      "Flexible itinerary discussions",
+      "A team ready to help"
+    ]
+  },
+  "search": {
+    "keyword": "Keyword",
+    "keywordPlaceholder": "Bali, Japan, Komodo...",
+    "month": "Departure month",
+    "maxPrice": "Max. budget",
+    "submit": "Search"
+  },
+  "home": {
+    "featuredKicker": "Featured packages",
+    "featuredTitle": "Our most requested packages",
+    "destKicker": "Destinations",
+    "destTitle": "Where to next?",
+    "whyTitle": "Why ValteraTravel",
+    "why": [
+      {
+        "t": "Clear price per person",
+        "d": "Every package shows its price openly so you can compare easily."
+      },
+      {
+        "t": "Up-to-date departure schedules",
+        "d": "See active departure dates right on the package page."
+      },
+      {
+        "t": "Direct consultation with our staff",
+        "d": "Send an inquiry and our staff will contact you for follow-up."
+      }
+    ],
+    "stepsTitle": "From choosing a package to departure",
+    "steps": [
+      {
+        "t": "Choose a package",
+        "d": "Browse packages or tell us your dream destination."
+      },
+      {
+        "t": "Send an inquiry",
+        "d": "Fill in a short form, no account needed."
+      },
+      {
+        "t": "Get contacted",
+        "d": "Our staff reaches out by email or phone."
+      },
+      {
+        "t": "Receive an offer",
+        "d": "Discuss trip details and the offer with us."
+      }
+    ],
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "Is this an instant booking?",
+        "a": "Not yet. The form you submit is an information inquiry. Reservation and payment are discussed with our staff."
+      },
+      {
+        "q": "Do I need an account?",
+        "a": "No. Just fill in the inquiry form with your name and either an email or a phone number."
+      },
+      {
+        "q": "Can I request a trip that is not listed?",
+        "a": "Yes. In the inquiry form, enter the destination you want without choosing a package."
+      },
+      {
+        "q": "Which languages are available?",
+        "a": "The website is available in Bahasa Indonesia and English. Use the language switch at the top of the page."
+      }
+    ],
+    "ctaTitle": "Tell us about your plans",
+    "ctaText": "Send an inquiry and our staff will contact you.",
+    "ctaButton": "Submit inquiry"
+  },
+  "packages": {
+    "kicker": "Travel packages",
+    "title": "Find your journey",
+    "region": "Region",
+    "month": "Departure month",
+    "sort": "Sort by",
+    "sortOptions": {
+      "inquiries_desc": "Most requested",
+      "price_asc": "Lowest price",
+      "price_desc": "Highest price",
+      "name_asc": "Name (A–Z)"
+    },
+    "found_one": "{{count}} package found",
+    "found_other": "{{count}} packages found",
+    "emptyTitle": "No matching packages yet.",
+    "emptyText": "Try raising your budget or changing the keyword."
+  },
+  "detail": {
+    "destination": "Destination",
+    "duration": "Duration",
+    "highlights": "Highlights",
+    "about": "About this package",
+    "schedules": "Departure schedule",
+    "noSchedules": "No schedule yet. Send an inquiry to ask about your preferred dates.",
+    "departure": "Departure",
+    "return": "Return",
+    "inclusions": "What's included",
+    "noInclusions": "Inclusion details are not available yet.",
+    "inquire": "Ask about this package",
+    "notFound": "Data not found.",
+    "packagesInDestination": "Packages in this destination"
+  },
+  "destinations": {
+    "kicker": "Destinations",
+    "title": "Explore destinations",
+    "empty": "No destinations available yet.",
+    "seePackages": "See packages"
+  },
+  "inquiry": {
+    "title": "Send an information request",
+    "subtitle": "Fill in the form below. Our staff will contact you for follow-up.",
+    "customerName": "Full name",
+    "email": "Email",
+    "phone": "Phone number",
+    "contactHint": "Provide at least one: email or phone number.",
+    "package": "Travel package (optional)",
+    "noPackage": "No package selected",
+    "destination": "Desired destination",
+    "destinationPlaceholder": "e.g. Bali",
+    "numTravelers": "Number of travelers",
+    "preferredDeparture": "Departure date",
+    "budget": "Estimated budget (IDR, optional)",
+    "message": "Additional message (optional)",
+    "messagePlaceholder": "Special requests, number of rooms, and more",
+    "submit": "Submit inquiry",
+    "submitting": "Sending...",
+    "errors": {
+      "customerName": "Name is required.",
+      "contact": "Provide an email or a phone number (at least one).",
+      "email": "Invalid email format.",
+      "destination": "Enter your desired destination if you don't select a package.",
+      "numTravelers": "At least 1 traveler is required.",
+      "preferredDeparture": "Departure date is required.",
+      "pastDate": "Departure date cannot be in the past.",
+      "budget": "Budget cannot be negative.",
+      "submit": "Failed to send the inquiry. Please try again."
+    },
+    "successTitle": "Thank you!",
+    "successText": "We have received your inquiry. Our staff will contact you shortly.",
+    "successRef": "Inquiry number",
+    "successHome": "Back to home",
+    "successMore": "Browse more packages",
+    "destinationSelect": "Select a destination",
+    "destinationOther": "Other destination (type it in)"
+  },
+  "footer": {
+    "tagline": "Travel package information and trip consultation.",
+    "rights": "All rights reserved.",
+    "contact": "Contact",
+    "placeholderNote": "Company contact details to be added."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The page you are looking for is not available."
+  },
+  "status": {
+    "NEW": "New",
+    "CONTACTED": "Contacted",
+    "OFFER_SENT": "Offer sent",
+    "CONVERTED": "Converted",
+    "CLOSED": "Closed"
+  },
+  "footerStaff": "Staff Login",
+  "dash": {
+    "login": {
+      "title": "Sign in to the dashboard",
+      "subtitle": "For ValteraTravel staff and managers only.",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Sign in",
+      "submitting": "Signing in...",
+      "demo": "Demo mode — sample accounts:"
+    },
+    "menu": {
+      "dashboard": "Overview",
+      "destinations": "Destinations",
+      "packages": "Travel Packages",
+      "inquiries": "Inquiries",
+      "reports": "Reports"
+    },
+    "role": {
+      "STAFF": "Staff",
+      "MANAGER": "Manager"
+    },
+    "logout": "Sign out",
+    "publicSite": "View website",
+    "err": {
+      "credentials": "Incorrect email or password.",
+      "inactive": "This account is inactive.",
+      "notFound": "Data not found.",
+      "incomplete": "Indonesian and English translations are incomplete; this item cannot be activated.",
+      "nameRequired": "Name in both Indonesian and English is required.",
+      "destinationRequired": "Destination is required.",
+      "price": "Price cannot be negative.",
+      "duration": "Duration must be at least 1 day.",
+      "scheduleDates": "Return date cannot be earlier than the departure date.",
+      "inclusionBoth": "Inclusion name and description are required in both languages.",
+      "generic": "Something went wrong. Please try again."
+    },
+    "common": {
+      "save": "Save",
+      "saving": "Saving...",
+      "cancel": "Cancel",
+      "edit": "Edit",
+      "delete": "Delete",
+      "add": "Add",
+      "activate": "Activate",
+      "deactivate": "Deactivate",
+      "active": "Active",
+      "inactive": "Inactive",
+      "actions": "Actions",
+      "status": "Status",
+      "confirmDelete": "Delete this item?",
+      "empty": "No data yet.",
+      "all": "All",
+      "reset": "Reset",
+      "imageUrl": "Image URL",
+      "langId": "Bahasa Indonesia",
+      "langEn": "English",
+      "incomplete": "Translation incomplete",
+      "filter": "Apply",
+      "close": "Close"
+    },
+    "overview": {
+      "title": "Inquiry overview",
+      "subtitle": "Current number of inquiries by status.",
+      "total": "Total",
+      "goInquiries": "Manage inquiries"
+    },
+    "destinations": {
+      "title": "Destinations",
+      "add": "Add destination",
+      "edit": "Edit destination",
+      "name": "Name",
+      "region": "Region",
+      "description": "Description",
+      "hint": "Destinations are deactivated, never deleted. A destination can be activated once both translations are complete."
+    },
+    "packages": {
+      "title": "Travel packages",
+      "add": "Add package",
+      "edit": "Edit package",
+      "destination": "Destination",
+      "price": "Price per person (IDR)",
+      "duration": "Duration (days)",
+      "name": "Package name",
+      "description": "Description",
+      "highlights": "Highlights",
+      "manage": "Schedules & inclusions",
+      "inquiries": "Inquiries",
+      "hint": "A package appears on the website only when it is active, its destination is active, and both translations are complete."
+    },
+    "manage": {
+      "back": "Back to packages",
+      "schedules": "Departure schedules",
+      "addSchedule": "Add schedule",
+      "editSchedule": "Edit schedule",
+      "departure": "Departure date",
+      "return": "Return date",
+      "inclusions": "Package inclusions",
+      "addInclusion": "Add inclusion",
+      "editInclusion": "Edit inclusion",
+      "itemName": "Inclusion name",
+      "description": "Description",
+      "order": "Display order",
+      "noSchedules": "No schedules yet.",
+      "noInclusions": "No inclusions yet."
+    },
+    "inquiries": {
+      "title": "Customer inquiries",
+      "from": "From",
+      "to": "To",
+      "package": "Package",
+      "assigned": "Assigned to",
+      "language": "Submission language",
+      "customer": "Customer",
+      "contact": "Contact",
+      "destination": "Requested destination",
+      "travelers": "Travelers",
+      "departure": "Departure",
+      "budget": "Estimated budget",
+      "message": "Customer message",
+      "notes": "Follow-up notes",
+      "received": "Received",
+      "unassigned": "Unassigned",
+      "detail": "Inquiry detail",
+      "saveNotes": "Save notes",
+      "updated": "Saved.",
+      "noPackage": "No package",
+      "originalNote": "Messages and notes are shown as originally written (not translated)."
+    },
+    "manager": {
+      "title": "Manager dashboard",
+      "readOnly": "Read-only view.",
+      "from": "From",
+      "to": "To",
+      "export": "Download CSV",
+      "exporting": "Preparing...",
+      "total": "Total inquiries",
+      "byStatus": "Status distribution",
+      "topPackages": "Most requested packages",
+      "topDestinations": "Most requested destinations",
+      "byLanguage": "Inquiry submission language",
+      "byPeriod": "Inquiries per month",
+      "noData": "No data in this period.",
+      "note": "Reports show customer interest based on inquiries, not transactions or revenue."
+    },
+    "csv": {
+      "id": "ID",
+      "created": "Received at",
+      "customer": "Customer name",
+      "email": "Email",
+      "phone": "Phone",
+      "package": "Package",
+      "destination": "Destination",
+      "travelers": "Travelers",
+      "departure": "Departure date",
+      "budget": "Estimated budget (IDR)",
+      "status": "Status",
+      "language": "Submission language",
+      "assigned": "Assigned to",
+      "message": "Message"
+    }
+  },
+  "demoBanner": "Demo mode: sample data, not saved"
+}

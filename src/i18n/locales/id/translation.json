@@ -1,0 +1,363 @@
+{
+  "brand": "ValteraTravel",
+  "nav": {
+    "home": "Beranda",
+    "packages": "Paket Wisata",
+    "destinations": "Destinasi",
+    "contact": "Kontak"
+  },
+  "language": "Bahasa",
+  "common": {
+    "loading": "Memuat...",
+    "error": "Terjadi kesalahan. Silakan coba lagi.",
+    "retry": "Coba lagi",
+    "viewDetail": "Lihat detail",
+    "viewAll": "Lihat semua",
+    "back": "Kembali",
+    "reset": "Reset filter",
+    "perPerson": "Mulai dari / orang",
+    "pricePerPerson": "Harga per orang",
+    "any": "Semua",
+    "flexible": "Fleksibel",
+    "prev": "Sebelumnya",
+    "next": "Berikutnya",
+    "page": "Halaman {{page}} dari {{total}}"
+  },
+  "duration": "{{count}} hari",
+  "travelers_one": "{{count}} orang",
+  "travelers_other": "{{count}} orang",
+  "hero": {
+    "badge": "Informasi paket wisata & konsultasi perjalanan",
+    "title": "Liburan tanpa ribet, kenangan tanpa batas.",
+    "subtitle": "Jelajahi destinasi dan paket wisata, lalu kirim permintaan informasi. Tim kami akan menghubungi Anda dengan penawaran yang sesuai.",
+    "points": [
+      "Informasi paket jelas",
+      "Itinerary dapat didiskusikan",
+      "Tim siap membantu"
+    ]
+  },
+  "search": {
+    "keyword": "Kata kunci",
+    "keywordPlaceholder": "Bali, Jepang, Komodo...",
+    "month": "Bulan berangkat",
+    "maxPrice": "Maks. budget",
+    "submit": "Cari"
+  },
+  "home": {
+    "featuredKicker": "Paket pilihan",
+    "featuredTitle": "Paket yang paling diminati",
+    "destKicker": "Destinasi",
+    "destTitle": "Mau ke mana berikutnya?",
+    "whyTitle": "Kenapa ValteraTravel",
+    "why": [
+      {
+        "t": "Harga per orang yang jelas",
+        "d": "Harga setiap paket tampil terbuka sehingga mudah dibandingkan."
+      },
+      {
+        "t": "Jadwal keberangkatan terbaru",
+        "d": "Lihat tanggal keberangkatan aktif langsung di halaman paket."
+      },
+      {
+        "t": "Konsultasi langsung dengan staf",
+        "d": "Kirim inquiry, lalu staf kami menghubungi Anda untuk tindak lanjut."
+      }
+    ],
+    "stepsTitle": "Dari memilih paket sampai berangkat",
+    "steps": [
+      {
+        "t": "Pilih paket",
+        "d": "Jelajahi paket atau ceritakan destinasi impian Anda."
+      },
+      {
+        "t": "Kirim inquiry",
+        "d": "Isi formulir singkat tanpa perlu membuat akun."
+      },
+      {
+        "t": "Dihubungi staf",
+        "d": "Staf menghubungi Anda melalui email atau telepon."
+      },
+      {
+        "t": "Terima penawaran",
+        "d": "Diskusikan detail perjalanan dan penawaran bersama kami."
+      }
+    ],
+    "faqTitle": "Pertanyaan umum",
+    "faq": [
+      {
+        "q": "Apakah ini pemesanan langsung?",
+        "a": "Belum. Formulir yang Anda kirim adalah permintaan informasi (inquiry). Reservasi dan pembayaran dibicarakan bersama staf kami."
+      },
+      {
+        "q": "Apakah saya perlu membuat akun?",
+        "a": "Tidak perlu. Cukup isi formulir inquiry dengan nama serta email atau nomor telepon."
+      },
+      {
+        "q": "Bisakah saya meminta paket di luar daftar?",
+        "a": "Bisa. Pada formulir inquiry, tulis destinasi yang Anda inginkan tanpa harus memilih paket."
+      },
+      {
+        "q": "Bahasa apa yang tersedia?",
+        "a": "Website tersedia dalam Bahasa Indonesia dan English. Gunakan tombol bahasa di bagian atas halaman."
+      }
+    ],
+    "ctaTitle": "Ceritakan rencana Anda",
+    "ctaText": "Kirim permintaan informasi dan staf kami akan menghubungi Anda.",
+    "ctaButton": "Kirim inquiry"
+  },
+  "packages": {
+    "kicker": "Paket wisata",
+    "title": "Temukan perjalanan Anda",
+    "region": "Wilayah",
+    "month": "Bulan keberangkatan",
+    "sort": "Urutkan",
+    "sortOptions": {
+      "inquiries_desc": "Paling diminati",
+      "price_asc": "Harga terendah",
+      "price_desc": "Harga tertinggi",
+      "name_asc": "Nama (A–Z)"
+    },
+    "found_one": "{{count}} paket ditemukan",
+    "found_other": "{{count}} paket ditemukan",
+    "emptyTitle": "Belum ada paket yang cocok.",
+    "emptyText": "Coba naikkan budget atau ubah kata kunci."
+  },
+  "detail": {
+    "destination": "Destinasi",
+    "duration": "Durasi",
+    "highlights": "Highlights",
+    "about": "Tentang paket",
+    "schedules": "Jadwal keberangkatan",
+    "noSchedules": "Jadwal belum tersedia. Kirim inquiry untuk menanyakan tanggal yang Anda inginkan.",
+    "departure": "Berangkat",
+    "return": "Pulang",
+    "inclusions": "Sudah termasuk",
+    "noInclusions": "Informasi fasilitas belum tersedia.",
+    "inquire": "Tanya paket ini",
+    "notFound": "Data tidak ditemukan.",
+    "packagesInDestination": "Paket di destinasi ini"
+  },
+  "destinations": {
+    "kicker": "Destinasi",
+    "title": "Jelajahi destinasi",
+    "empty": "Belum ada destinasi tersedia.",
+    "seePackages": "Lihat paket"
+  },
+  "inquiry": {
+    "title": "Kirim permintaan informasi",
+    "subtitle": "Isi formulir berikut. Staf kami akan menghubungi Anda untuk tindak lanjut.",
+    "customerName": "Nama lengkap",
+    "email": "Email",
+    "phone": "Nomor telepon",
+    "contactHint": "Isi minimal salah satu: email atau nomor telepon.",
+    "package": "Paket wisata (opsional)",
+    "noPackage": "Belum memilih paket",
+    "destination": "Destinasi yang diinginkan",
+    "destinationPlaceholder": "Contoh: Bali",
+    "numTravelers": "Jumlah peserta",
+    "preferredDeparture": "Tanggal keberangkatan",
+    "budget": "Estimasi anggaran (IDR, opsional)",
+    "message": "Pesan tambahan (opsional)",
+    "messagePlaceholder": "Permintaan khusus, jumlah kamar, dan lainnya",
+    "submit": "Kirim inquiry",
+    "submitting": "Mengirim...",
+    "errors": {
+      "customerName": "Nama wajib diisi.",
+      "contact": "Isi email atau nomor telepon (minimal salah satu).",
+      "email": "Format email tidak valid.",
+      "destination": "Isi destinasi yang diinginkan jika tidak memilih paket.",
+      "numTravelers": "Jumlah peserta minimal 1 orang.",
+      "preferredDeparture": "Tanggal keberangkatan wajib diisi.",
+      "pastDate": "Tanggal keberangkatan tidak boleh di masa lalu.",
+      "budget": "Anggaran tidak boleh negatif.",
+      "submit": "Inquiry gagal dikirim. Silakan coba lagi."
+    },
+    "successTitle": "Terima kasih!",
+    "successText": "Inquiry Anda sudah kami terima. Staf kami akan segera menghubungi Anda.",
+    "successRef": "Nomor inquiry",
+    "successHome": "Kembali ke beranda",
+    "successMore": "Lihat paket lainnya",
+    "destinationSelect": "Pilih destinasi",
+    "destinationOther": "Destinasi lain (tulis sendiri)"
+  },
+  "footer": {
+    "tagline": "Informasi paket wisata dan konsultasi perjalanan.",
+    "rights": "Seluruh hak dilindungi.",
+    "contact": "Kontak",
+    "placeholderNote": "Detail kontak perusahaan menyusul."
+  },
+  "notFound": {
+    "title": "Halaman tidak ditemukan",
+    "text": "Halaman yang Anda cari tidak tersedia."
+  },
+  "status": {
+    "NEW": "Baru",
+    "CONTACTED": "Sudah dihubungi",
+    "OFFER_SENT": "Penawaran dikirim",
+    "CONVERTED": "Berhasil dikonversi",
+    "CLOSED": "Ditutup"
+  },
+  "footerStaff": "Login Internal",
+  "dash": {
+    "login": {
+      "title": "Masuk ke dashboard",
+      "subtitle": "Khusus staf dan manajer ValteraTravel.",
+      "email": "Email",
+      "password": "Kata sandi",
+      "submit": "Masuk",
+      "submitting": "Memproses...",
+      "demo": "Mode demo — akun contoh:"
+    },
+    "menu": {
+      "dashboard": "Ringkasan",
+      "destinations": "Destinasi",
+      "packages": "Paket Wisata",
+      "inquiries": "Inquiry",
+      "reports": "Laporan"
+    },
+    "role": {
+      "STAFF": "Staf",
+      "MANAGER": "Manajer"
+    },
+    "logout": "Keluar",
+    "publicSite": "Lihat website",
+    "err": {
+      "credentials": "Email atau kata sandi salah.",
+      "inactive": "Akun tidak aktif.",
+      "notFound": "Data tidak ditemukan.",
+      "incomplete": "Terjemahan Bahasa Indonesia dan English belum lengkap, data tidak dapat diaktifkan.",
+      "nameRequired": "Nama dalam Bahasa Indonesia dan English wajib diisi.",
+      "destinationRequired": "Destinasi wajib dipilih.",
+      "price": "Harga tidak boleh negatif.",
+      "duration": "Durasi minimal 1 hari.",
+      "scheduleDates": "Tanggal pulang tidak boleh lebih awal dari tanggal berangkat.",
+      "inclusionBoth": "Nama dan deskripsi fasilitas wajib diisi dalam kedua bahasa.",
+      "generic": "Terjadi kesalahan. Silakan coba lagi."
+    },
+    "common": {
+      "save": "Simpan",
+      "saving": "Menyimpan...",
+      "cancel": "Batal",
+      "edit": "Ubah",
+      "delete": "Hapus",
+      "add": "Tambah",
+      "activate": "Aktifkan",
+      "deactivate": "Nonaktifkan",
+      "active": "Aktif",
+      "inactive": "Nonaktif",
+      "actions": "Aksi",
+      "status": "Status",
+      "confirmDelete": "Hapus data ini?",
+      "empty": "Belum ada data.",
+      "all": "Semua",
+      "reset": "Reset",
+      "imageUrl": "URL gambar",
+      "langId": "Bahasa Indonesia",
+      "langEn": "English",
+      "incomplete": "Terjemahan belum lengkap",
+      "filter": "Terapkan",
+      "close": "Tutup"
+    },
+    "overview": {
+      "title": "Ringkasan inquiry",
+      "subtitle": "Jumlah inquiry berdasarkan status saat ini.",
+      "total": "Total",
+      "goInquiries": "Kelola inquiry"
+    },
+    "destinations": {
+      "title": "Destinasi",
+      "add": "Tambah destinasi",
+      "edit": "Ubah destinasi",
+      "name": "Nama",
+      "region": "Wilayah",
+      "description": "Deskripsi",
+      "hint": "Destinasi dinonaktifkan, bukan dihapus. Destinasi baru aktif setelah kedua terjemahan lengkap."
+    },
+    "packages": {
+      "title": "Paket wisata",
+      "add": "Tambah paket",
+      "edit": "Ubah paket",
+      "destination": "Destinasi",
+      "price": "Harga per orang (IDR)",
+      "duration": "Durasi (hari)",
+      "name": "Nama paket",
+      "description": "Deskripsi",
+      "highlights": "Highlights",
+      "manage": "Jadwal & fasilitas",
+      "inquiries": "Inquiry",
+      "hint": "Paket tampil di website hanya jika aktif, destinasinya aktif, dan kedua terjemahan lengkap."
+    },
+    "manage": {
+      "back": "Kembali ke paket",
+      "schedules": "Jadwal keberangkatan",
+      "addSchedule": "Tambah jadwal",
+      "editSchedule": "Ubah jadwal",
+      "departure": "Tanggal berangkat",
+      "return": "Tanggal pulang",
+      "inclusions": "Fasilitas paket",
+      "addInclusion": "Tambah fasilitas",
+      "editInclusion": "Ubah fasilitas",
+      "itemName": "Nama fasilitas",
+      "description": "Deskripsi",
+      "order": "Urutan tampil",
+      "noSchedules": "Belum ada jadwal.",
+      "noInclusions": "Belum ada fasilitas."
+    },
+    "inquiries": {
+      "title": "Inquiry pelanggan",
+      "from": "Dari tanggal",
+      "to": "Sampai tanggal",
+      "package": "Paket",
+      "assigned": "Penanggung jawab",
+      "language": "Bahasa kirim",
+      "customer": "Pelanggan",
+      "contact": "Kontak",
+      "destination": "Destinasi diminta",
+      "travelers": "Peserta",
+      "departure": "Berangkat",
+      "budget": "Estimasi anggaran",
+      "message": "Pesan pelanggan",
+      "notes": "Catatan tindak lanjut",
+      "received": "Diterima",
+      "unassigned": "Belum ditugaskan",
+      "detail": "Detail inquiry",
+      "saveNotes": "Simpan catatan",
+      "updated": "Tersimpan.",
+      "noPackage": "Tanpa paket",
+      "originalNote": "Pesan dan catatan ditampilkan sesuai teks aslinya (tidak diterjemahkan)."
+    },
+    "manager": {
+      "title": "Dashboard manajer",
+      "readOnly": "Tampilan hanya-baca.",
+      "from": "Dari tanggal",
+      "to": "Sampai tanggal",
+      "export": "Unduh CSV",
+      "exporting": "Menyiapkan...",
+      "total": "Total inquiry",
+      "byStatus": "Distribusi status",
+      "topPackages": "Paket paling diminati",
+      "topDestinations": "Destinasi paling diminati",
+      "byLanguage": "Bahasa pengiriman inquiry",
+      "byPeriod": "Inquiry per bulan",
+      "noData": "Tidak ada data pada periode ini.",
+      "note": "Laporan menunjukkan minat pelanggan berdasarkan inquiry, bukan transaksi atau pendapatan."
+    },
+    "csv": {
+      "id": "ID",
+      "created": "Waktu diterima",
+      "customer": "Nama pelanggan",
+      "email": "Email",
+      "phone": "Telepon",
+      "package": "Paket",
+      "destination": "Destinasi",
+      "travelers": "Jumlah peserta",
+      "departure": "Tanggal berangkat",
+      "budget": "Estimasi anggaran (IDR)",
+      "status": "Status",
+      "language": "Bahasa kirim",
+      "assigned": "Penanggung jawab",
+      "message": "Pesan"
+    }
+  },
+  "demoBanner": "Mode demo: data contoh, tidak tersimpan"
+}
